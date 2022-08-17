@@ -1,0 +1,810 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 30px 15px 20px 15px;
+    z-index: 10;
+    box-shadow: -1px 0px 30px 0px #dce4e0;
+
+    
+}
+
+.logo{
+    flex: 1;
+}
+.logo img{
+    width: 105px;
+    height: 33px;
+}
+ul{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul li{
+    list-style-type:none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+    padding: 15px 5px ;
+    margin: 0px 11px;
+}
+.nav-button{
+    padding: 18px 35px;
+    background-color: #FF5A5A;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: poppins;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-button:hover{
+    transition: 0.4s ease;
+    background-color: rgb(36, 34, 54);
+}
+.sec1{
+    display: flex;
+    padding: 100px 50px;
+}
+.left-div{
+    flex: 1;
+    padding: 55px 45px;
+}
+
+.right-div{
+    flex: 1;
+    /* padding: 65px 20px; */
+    padding: auto;
+
+}
+.main-image{
+    padding-top: 10%;
+    width: 100%;
+    height: auto;
+    
+}
+
+.upper-div h1{
+    font-size: 50px;
+    font-family: poppins;
+    font-weight: 700;
+    color: #161B37;
+    padding: 25px 0px;
+
+}
+.upper-div p,.lower-div p,.lower-div2 p ,.right-div3 p,.left-div4 p ,.left-div5 p 
+,.upper-div6 p ,.entrepreneurs p ,.startups p ,.employees p ,.find-out p {
+
+    font-size: 18px;
+    font-family: nunito sans;
+    font-weight:500;
+    color: #242230;
+}
+
+.upper-div p{
+    padding-bottom: 30px;
+}
+.lower-div p{
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight:600;
+
+}
+
+.logo-3 img{
+        opacity: 0.3; 
+        width: 130px;
+        height: 50px;
+        transition: 0.5s ease;
+        
+    } 
+.logo-3 img:hover { 
+        opacity: 1; 
+    }
+/* keyword  check  */
+.sec2{
+    /* display: flex; */
+    padding: 2px;
+}
+.upper-div2 h1 {
+    font-size: 2.4rem;
+    font-family: poppins;
+    font-weight: 600;
+    color:  #151A36;
+    margin-top:10px;  
+    padding: 0px 70px;
+}
+.lower-div2{
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+    padding: 100px 70px;
+    
+}
+.part1,.part2,.part3{
+    /* justify-content: space-between; */
+    padding-inline: 10px;
+}
+
+.lower-div2 h1 ,.entrepreneurs h1 ,.startups h1 ,.employees h1 {
+    font-size: 1.4rem;
+    font-family: poppins;
+    font-weight: 600;
+    color: #161B37;
+}
+.lower-div2 h1{
+    padding: 40px 0px 10px ;
+}
+.lower-div2 p { 
+    font-size: 18px;
+    font-family: nunito sans;
+    font-weight: 400;
+    padding: 25px 0;
+}
+
+/* section 3   > small details and big impact */
+.sec3{
+    display: flex;
+    /* margin: 40px 80px; */
+    padding: 40px 80px;
+}
+.left-div3{
+    flex: 1;
+    background-color: #fdb7b7;
+    height: 420px;
+    padding-right: 60px;
+    position: relative;
+}
+.img-earning{
+    position: absolute;
+    margin-top: 15px;
+    left: 0px;
+    z-index: 1;
+    width: 280px;
+
+}
+.img-location{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 120px;
+    z-index: 2;
+    width: 360px;
+}
+.img-trends{
+    position: absolute;
+    margin-top: 80px;
+    /* right: 0px; */
+    margin-left: 340px;
+    z-index: 3;
+    width: 260px;
+
+}
+.right-div3{
+    flex: 1;
+    padding: 90px 0px 30px 40px;
+    text-align: left;
+    
+}
+.right-div3 a,.left-div4 a ,.left-div5 a{
+    color: #ff5a5a;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid #ff5a5a;
+}
+.right-div3 a:hover,.left-div4 a:hover ,.left-div5 a:hover {
+    color: #161b37;
+    border-bottom: 1px solid #161b37;
+    transition: 0.4s ease;
+}
+.right-div3 h1,.left-div4 h1{
+    font-size: 28px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #060c0f;
+    padding: 10px 0;
+}
+.right-div3 p{
+    padding: 20px 0;
+}
+
+/* section 4   > rank your website*/
+.sec4{
+    display: flex;
+    
+    padding: 70px 70px;
+    justify-content: space-evenly;
+}
+.left-div4{
+    flex: 1;
+    padding: 100px 40px 0px 0px ;
+    
+}
+.left-div4 p {
+    font-size: 18px;
+    padding: 15px 0;
+}
+.left-div4 h1{
+    font-size: 28px;
+    padding: 10px 0 ;
+}
+.right-div4{
+    flex: 1;
+    background-color: #ffd2b1;
+    height: 400px;
+    position: relative;
+    padding: 10px;
+}
+.img-sec4a{
+    position: absolute;
+    margin-top:65px;
+    left: 15px;
+    z-index: 2;
+    width: 350px;
+    height: auto;
+
+}
+.img-sec4b{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 210px;
+    z-index: 1;
+    width: 310px;
+    height: auto;
+
+}
+.img-sec4c{
+    position: absolute;
+    margin-top: 160px;
+    /* right: 0px; */
+    margin-left: 225px;
+    z-index: 3;
+    width: 350px;
+    height: auto;
+}
+/* section 5 pricing plan */
+.sec5
+{
+    justify-content: space-between;
+    display: flex;
+    margin: 160px 130px 100px 60px;
+    
+}
+.left-div5{
+    padding: 30px ;
+    width: 30%;
+    margin-top: 150px;
+}
+.left-div5 h1 ,.find-out h1{
+    font-size: 36px;
+    font-family: poppins;
+    font-weight: 600;
+    color:  #151A36;
+}
+.left-div5 h1{
+    font-size:42px ;
+}
+.left-div5 p{
+    font-size:16px;
+    padding: 20px 0px;
+}
+.right-div5{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.right-div5 h1{
+    font-size:28px ;
+}
+.right-div5 p{
+    font-size:20px;
+    padding: 20px 0px ;
+}
+.starter-plan{
+    flex: 1;
+    box-shadow: -1px 0px 10px 0px rgb(209, 217, 233);
+    height: 600px;
+    border-radius: 15px;
+
+
+
+}
+.plan1-header{
+    padding: 20px;
+    text-align: center;
+    background-color: #d8d8d8;
+    margin: 0;
+    border-radius : 15px 15px 0px 0px;  
+}
+.plan-price1 ,.plan-price2,.upper-div6 h1{
+    font-size: 44px;
+    color: #161b37;
+    font-weight: 600;
+    font-family: poppins;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.plan-price1 {
+    padding-top: 65px;
+    padding-bottom: 40px;
+    font-size: 44px;
+}
+.plan-price2{
+    padding-top: 45px;
+    font-size: 44px;
+    padding-bottom: 30px;
+} 
+
+.plan-duration{
+    font-size: 18px;
+    color: #7a7a7a;
+    font-weight: 500;
+    font-family: poppins;
+    text-align: center;
+}
+.starter-plan p ,.premium-plan p{
+    font-size: 18px;
+    /* padding-left: 30px; */
+    font-family: nunito sans;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0,0,0, 0.09);
+    padding: 15px;
+
+    
+}
+
+.plan-content1 p,.plan-content2 p
+,.starter-plan h2 ,.premium-plan h2{
+    padding-left: 80px;
+    font-size: 18px;
+    font-family: nunito sans;
+    font-weight:500;
+    color: #242230;
+}
+.plan-button{
+    margin: 30px 118px  20px;
+    padding: 18px 45px;
+}
+.circle-css {
+    color: rgb(68, 189, 68);
+}
+
+.premium-plan{
+    flex: 1;
+    width: 55%;
+    box-shadow: -2px 1px 10px 1px rgb(198, 206, 221);
+    height: 650px;
+    border-radius: 15px;
+    
+}
+.plan2-header{
+    padding: 20px;
+    text-align: center;
+    background-color:#fdb7b7;
+    margin: 0;
+    border-radius : 15px 15px 0px 0px;  
+
+}
+
+/* section 6 entrepreneurs                                                                   startups */
+.sec6{
+    display: block;
+    padding-top: 150px ; 
+    text-align: center;
+    
+}
+.upper-div6{
+    display: block;
+    margin: 0 40px;
+    padding: 0 30px;
+}
+.lower-div6{
+    display: block;
+    display: flex;
+}
+.left-div6{
+    flex: 1;
+    padding: 75px 70px 75px 80px;
+}
+.left-div6 img{
+    width: 550px;
+    height: 430px;
+}
+.right-div6{
+    flex: 1;
+    text-align: left;
+    margin: 120px 50px 100px 0px ;
+}
+.right-div6 h1{
+    padding: 25px 0 15px ;
+}
+.check-css{
+    color: red;
+    text-decoration-thickness: 20px;
+}
+
+/* find out div */
+.find-out{
+    padding: 120px 250px;
+    margin-top: 100px;
+    background-color: #ffd2b1;
+    text-align: center;
+
+}
+.find-out p{
+    padding: 30px;
+    padding-bottom: 60px;
+}
+.find-out h1{
+    font-size: 44px;
+}
+/* Footer section  */
+.sec7{
+    background-color: #171b34;
+    padding: 100px 60px 60px;
+}
+.container{
+    max-width: 1150%;
+    /* background-color: #FF5A5A; */
+    margin: 40px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;    
+    justify-content: space-between;
+
+}
+footer-col{
+    width: 25%;
+    padding: 0px 25px;
+}
+.footer-col h2{
+    font-size: 25px;
+    font-family: lato;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+.footer-col ul{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.footer-col ul li a{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: block;
+    font-family: nunito sans;
+    padding: 10px 0px;
+
+
+}
+.footer-col ul li a:hover{
+    color: #7ad6f1;
+    font-weight: 500;
+}
+.social-media img{
+
+    /* margin: 20px 25px 25px 0; */
+    transition: all 0.3s ease;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    justify-content: space-between;
+    margin: 20px 6px 0px 0px;
+    padding: 8px;
+    opacity: 1;
+
+}
+.social-media img:hover{
+    opacity: 0.5;
+}
+
+.btn{
+    padding: 16px 100px;
+    transition: all 0.2s ease;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #FF5A5A;
+}
+.mail{
+    padding: 18px 50px;
+    background-color: #ffffff;
+    color: #07080e;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: nunito sans;
+    text-align:start;
+}
+
+
+/* media queries for tablets and ipad 768 to 1024 */
+@media (min-width:769px) and (max-width:1024px)
+{
+    .sec1{
+        display: block;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* padding: 50px 20px; */
+    }
+    .left-div{
+        /* flex: 1; */
+        text-align: center;
+        /* padding: 25px 25px; */
+    }
+    
+    /* .right-div{
+        flex: 1;
+        padding: 35px 20px;
+    
+    } */
+    .right-div{
+        text-align: center;
+    }
+    .main-image{
+        width: 80%;
+        /* padding: 10px; */
+        height: auto;
+        /* justify-content: center; */
+        
+    }
+    
+    .upper-div h1{
+        font-size: 44px;
+        text-align: center;
+    
+    }
+    .upper-div p,.lower-div p,.lower-div2 p ,.right-div3 p,.left-div4 p ,.left-div5 p 
+    ,.upper-div6 p ,.entrepreneurs p ,.startups p ,.employees p ,.find-out p {
+    
+        font-size: 18px;
+    }
+    .logo-3{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .logo-3 img{
+            display: flex;
+            width: 20%;
+            height: auto;
+            padding:20px 0px ;
+            
+        } 
+
+        /* keyword  check  */
+.sec2{
+    /* display: flex; */
+    /* padding: 2px; */
+}
+.upper-div2 h1 {
+    font-size: 1.6rem;
+    /* font-size: 2rem; */
+    /* font-family: poppins; */
+    /* font-weight: 600; */
+    /* color:  #151A36; */
+    /*  margin-top:10px;   */
+    padding: 0px 30px; 
+}
+.lower-div2{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: block;
+    text-align: center;
+    padding: 50px 40px;
+    
+}
+/* 
+.lower-div2 h1 ,.entrepreneurs h1 ,.startups h1 ,.employees h1 {
+    font-size: 1.2rem;
+    font-family: poppins;
+    font-weight: 600;
+    color: #161B37;
+} */
+/* .lower-div2 h1{
+    padding: 40px 0px 10px ;
+} */
+.lower-div2 p { 
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+
+    /* section 4 second three                                                        images*/
+    .sec4{
+        flex-direction: column;
+    }
+
+
+    /* section 5                                                                       pricing plan   */
+    .sec5{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left-div5{
+        width:90%;
+        padding-right: 10px;
+    }
+    .right-div5{
+        flex-direction: column;
+    }
+
+
+
+
+/* section 6 entrepreneurs                                                                 startups */
+    .sec6{
+        flex-direction: column;
+    }
+    .lower-div6{
+        flex-direction:column;
+        }
+
+}
+
+
+
+/* media queries for mobile and small devices */
+@media (max-width:768px)
+{
+    .sec1{
+        display: block;
+        padding: 50px 20px;
+    }
+    .left-div{
+        /* flex: 1; */
+        padding: 25px 25px;
+    }
+    
+    .right-div{
+        /* flex: 1; */
+        padding: 35px 20px;
+    
+    }
+    .upper-div{
+        text-align: center;
+    }
+    .right-div{
+        text-align: center;
+    }
+    .main-image{
+        max-width: 100%;
+
+    }
+    
+    .upper-div h1{
+        font-size: 34px;
+        text-align: center;
+    
+    }
+    .upper-div p,.lower-div p,.lower-div2 p ,.right-div3 p,.left-div4 p ,.left-div5 p 
+    ,.upper-div6 p ,.entrepreneurs p ,.startups p ,.employees p ,.find-out p {
+    
+        font-size: 15px;
+        font-family: nunito sans;
+        font-weight:500;
+        color: #242230;
+    }
+    
+    .upper-div p{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .lower-div p{
+        font-size: 14;
+        text-align: center;
+        /* margin-left: 200px; */
+
+    }
+    .logo-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-3 img{
+            display: flex;
+            width: 140px;
+            padding: 10px 0px ;
+            height: auto;
+            
+        } 
+
+    /* keyword  check  */
+.sec2{
+    /* display: flex; */
+    /* padding: 2px; */
+}
+.upper-div2 h1 {
+    font-size: 1.6rem;
+    /* font-size: 2rem; */
+    /* font-family: poppins; */
+    /* font-weight: 600; */
+    /* color:  #151A36; */
+    /*  margin-top:10px;   */
+    padding: 0px 30px; 
+}
+.lower-div2{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: block;
+    text-align: center;
+    padding: 50px 40px;
+    
+}
+/* 
+.lower-div2 h1 ,.entrepreneurs h1 ,.startups h1 ,.employees h1 {
+    font-size: 1.2rem;
+    font-family: poppins;
+    font-weight: 600;
+    color: #161B37;
+} */
+/* .lower-div2 h1{
+    padding: 40px 0px 10px ;
+} */
+.lower-div2 p { 
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+    /* section 4 second three                                                        images*/
+    .sec4{
+        flex-direction: column;
+    }
+
+
+    /* section 5                                                                       pricing plan   */
+    .sec5{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left-div5{
+        width:90%;
+        padding-right: 10px;
+    }
+    .right-div5{
+        flex-direction: column;
+    }
+
+
+
+
+/* section 6 entrepreneurs                                                                 startups */
+    .sec6{
+        flex-direction: column;
+    }
+    .lower-div6{
+        flex-direction:column;
+        }
+}
+
